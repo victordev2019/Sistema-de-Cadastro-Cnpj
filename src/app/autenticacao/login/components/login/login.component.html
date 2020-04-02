@@ -17,6 +17,7 @@
       </mat-list-item>
       <mat-list-item fxLayoutAlign="center">
         <button mat-raised-button color="primary"
+          [disabled]="form.invalid"
             (click)="logar()">
             Entrar
         </button>
