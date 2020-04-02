@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './cadastro-pj.component.component.html',
   styleUrls: ['./cadastro-pj.component.component.css']
 })
-export class CadastroPj.ComponentComponent implements OnInit {
+export class CadastroPjComponent implements OnInit {
 
   constructor() { }
 
